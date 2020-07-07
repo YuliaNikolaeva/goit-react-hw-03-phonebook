@@ -91,7 +91,6 @@ export default class App extends Component {
                             onChange={this.changeFilter}
                         />
                     )}
-                    ;
                     <ContactForm OnSubmit={this.addContact} />
                 </Container>
 
